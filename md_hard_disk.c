@@ -376,6 +376,7 @@ void evolve_one_collision()
 void call_gnuplot(int t)
 {
 	fprintf(pipe, "set title 'time=%.8e'\n",tm);
+	fprintf(pipe, "set style fill transparent solid\n");
 	fprintf(pipe,"p 'position.dat' u 2:3:4 w circle lw 2 lc rgb 'red' tit ''\n");
 	fflush(pipe);
 }
