@@ -1,4 +1,6 @@
-/*This code simulates system of hard circular disks using event driven method. Particles do elastic collisions with each other. Initial positions and velocities are chosen randomly. --------written by Dipanjan Mandal, dipkar.308@gmail.com*/
+/*This code simulates system of hard circular disks using event driven method. 
+Particles do elastic collisions with each other. Initial positions and velocities
+are chosen randomly. -------- written by Dipanjan Mandal, dipkar.308@gmail.com*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
