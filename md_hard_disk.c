@@ -6,8 +6,8 @@
 #include "mt19937ar.h"
 
 #define L 50 //system size
-#define N 60 // Tptal number of particles
-#define T_MAX 10000//maximum event
+#define N 60 // Total number of particles
+#define T_MAX 10000//maximum events/collisions to be simulated 
 #define max_v 20.0 // Maximum velocity of a particle
 #define sigma 2.0 //particle radius
 #define pair_dim (N*N/2-N/2)//total pair-collision events need to be calculated
